@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChainLength</string>
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Polski</item>
+    </string-array>
+    <string name="napisSuportPiasta">Bottom Bracket To Rear Hub Length [cm]</string>
+    <string name="napisWynik">Chain Link Number:</string>
+    <string name="napisWynikRownania">0</string>
+    <string name="przyciskOblicz">Calculate</string>
+    <string name="napisTlumacz">Language:</string>
+    <string name="napisKaseta">"Largest Cassette Disc Chainrings Number"</string>
+    <string name="napisKorba">Largest Chainset Disc Chainrings Number</string>
+    <string name="napisDane">Please enter values higher than 0.</string>
+</resources>

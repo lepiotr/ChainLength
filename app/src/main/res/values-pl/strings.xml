@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChainLength</string>
+    <string name="napisKaseta">Ilość zębów największej tarczy kasety</string>
+    <string name="napisKorba">Ilość zębów największej tarczy korby</string>
+    <string name="napisSuportPiasta">Odl. suport - tylna piasta [cm]</string>
+    <string name="napisWynik">Ilość ogniw łańcucha:</string>
+    <string name="napisWynikRownania">0</string>
+    <string name="przyciskOblicz">Oblicz</string>
+    <string name="napisTlumacz">Język:</string>
+    <string name="napisDane">Proszę wprowadzić liczby calkowite wieksze niz 0.</string>
+</resources>
