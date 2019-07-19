@@ -1,0 +1,28 @@
+Index: app/src/main/java/com/example/myapplication1/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/myapplication1/MainActivity.java	(revision dac86e1a9bd8b8ef23bcdf6e18ca290edd7ec4a3)
++++ app/src/main/java/com/example/myapplication1/MainActivity.java	(date 1563861886780)
+@@ -29,9 +29,9 @@
+     int numberChainringsLargestDiscChainset;    // Largest Chainset Disc Chainrings Number
+     int numberChainringsLargestDiscCassette;    // Largest Cassette Disc Chainrings Number
+     int lengthBottomBracketRearHub;             // Bottom Bracket To Rear Hub Length [cm]
+-    double constNumber=0.635;                   // Constant number
++    double CONST_NUMBER=0.635;                   // Constant number
+     int functionTempA;                          // Temporary function A: functionTempA = (numberChainringsLargestDiscChainset + numberChainringsLargestDiscCassette) / 2
+-    double functionTempB;                       // Temporary function B: functionTempB = lengthBottomBracketRearHub / constNumber; functionTempB = Math.round(functionTempB)
++    double functionTempB;                       // Temporary function B: functionTempB = lengthBottomBracketRearHub / CONST_NUMBER; functionTempB = Math.round(functionTempB)
+     int functionTempC;                          // Temporary function C: functionTempC = (int) functionTempB
+     int functionTempD;                          // Temporary function D: functionTempD = functionTempA + functionTempC + 2
+     int functionTempE;                          // Temporary function E: functionTempE = functionTempD or functionTempE = functionTempD + 1
+@@ -256,7 +256,7 @@
+ 
+                 // Temporary functions
+                 functionTempA = (numberChainringsLargestDiscChainset + numberChainringsLargestDiscCassette) / 2;
+-                functionTempB = lengthBottomBracketRearHub / constNumber;
++                functionTempB = lengthBottomBracketRearHub / CONST_NUMBER;
+                 functionTempB = Math.round(functionTempB);
+                 functionTempC = (int) functionTempB;
+                 functionTempD = functionTempA + functionTempC + 2;
