@@ -265,11 +265,11 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         functionTempE = functionTempD + 1;
                     }
-                    // The Result - Chain Link Number
+                    // Result - Chain Link Number
                     functionCalculated = functionTempE;
                     resultEqualsString = String.valueOf(functionCalculated); // Int->String
 
-                    // Wyswietlenie wyniku
+                    // Result
                     resultText.setText(resultEqualsString);
             }
         });
