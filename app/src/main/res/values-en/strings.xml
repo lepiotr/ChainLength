@@ -7,6 +7,6 @@
     <string name="napisWynik">Chain Link Number:</string>
     <string name="napisWynikRownania">Result</string>
     <string name="przyciskOblicz">Calculate</string>
-    <string name="napisTlumacz">Language:</string>
+    <string name="napisTlumacz">English / Polski</string>
     <string name="napisDane">Please enter integer values higher than 0.</string>
 </resources>

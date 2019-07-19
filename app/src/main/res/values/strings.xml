@@ -8,7 +8,7 @@
     <string name="napisWynik">Chain Link Number:</string>
     <string name="napisWynikRownania">0</string>
     <string name="przyciskOblicz">Calculate</string>
-    <string name="napisTlumacz">Language:</string>
+    <string name="napisTlumacz">English / Polski</string>
     <string name="napisKaseta">"Largest Cassette Disc Chainrings Number"</string>
     <string name="napisKorba">Largest Chainset Disc Chainrings Number</string>
     <string name="napisDane">Please enter values higher than 0.</string>

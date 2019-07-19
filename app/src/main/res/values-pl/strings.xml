@@ -7,6 +7,6 @@
     <string name="napisWynik">Ilość ogniw łańcucha:</string>
     <string name="napisWynikRownania">0</string>
     <string name="przyciskOblicz">Oblicz</string>
-    <string name="napisTlumacz">Język:</string>
+    <string name="napisTlumacz">English / Polski</string>
     <string name="napisDane">Proszę wprowadzić liczby calkowite wieksze niz 0.</string>
 </resources>
