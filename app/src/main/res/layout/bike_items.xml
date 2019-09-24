@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imgBike"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher2" />
+
+    <TextView
+        android:id="@+id/txtBikeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/imgBike"
+        android:text="@string/txtSqlBikeName"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtBikeType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBikeName"
+        android:layout_alignStart="@+id/txtBikeName"
+        android:layout_alignRight="@+id/txtBikeName"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/txtSqlBikeType"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtChainset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBike"
+        android:layout_alignStart="@+id/imgBike"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtSqlChainset"
+        app:layout_constraintStart_toStartOf="@+id/txtBikeType"
+        app:layout_constraintTop_toBottomOf="@+id/txtBikeType" />
+
+    <TextView
+        android:id="@+id/txtSqlChainset"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBike"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/txtChainset"
+        app:layout_constraintStart_toEndOf="@+id/txtChainset" />
+
+    <TextView
+        android:id="@+id/txtCassette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChainset"
+        android:layout_alignStart="@+id/txtChainset"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/txtSqlCassette"
+        app:layout_constraintStart_toStartOf="@+id/txtChainset"
+        app:layout_constraintTop_toBottomOf="@+id/txtChainset" />
+
+    <TextView
+        android:id="@+id/txtSqlCassette"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSqlChainset"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/txtCassette"
+        app:layout_constraintStart_toEndOf="@+id/txtCassette" />
+
+    <TextView
+        android:id="@+id/txtBracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCassette"
+        android:layout_alignStart="@+id/txtCassette"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/txtSqlBracket"
+        app:layout_constraintStart_toStartOf="@+id/txtCassette"
+        app:layout_constraintTop_toBottomOf="@+id/txtCassette" />
+
+    <TextView
+        android:id="@+id/txtSqlBracket"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSqlCassette"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/txtBracket" />
+
+    <TextView
+        android:id="@+id/txtChainLinkNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBracket"
+        android:layout_alignStart="@+id/txtBracket"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtResult"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/txtSqlChainLinkNumber"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtChainLinkNumber"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/txtChainLinkNumber"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toEndOf="@+id/txtChainLinkNumber" />
+
+</RelativeLayout>

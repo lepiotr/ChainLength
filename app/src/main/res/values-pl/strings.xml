@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ChainLength</string>
-    <string name="napisKaseta">Ilość zębów największej tarczy kasety</string>
-    <string name="napisKorba">Ilość zębów największej tarczy korby</string>
-    <string name="napisSuportPiasta">Odl. suport - tylna piasta [cm]</string>
-    <string name="napisWynik">Ilość ogniw łańcucha:</string>
-    <string name="napisWynikRownania">0</string>
-    <string name="przyciskOblicz">Oblicz</string>
-    <string name="napisTlumacz">English / Polski</string>
-    <string name="napisDane">Proszę wprowadzić liczby calkowite wieksze niz 0.</string>
+    <string name="txtNumberChainringsLargestDiscCassette">Ilość zębów największej tarczy kasety</string>
+    <string name="txtNumberChainringsLargestDiscChainset">Ilość zębów największej tarczy korby</string>
+    <string name="txtLengthBottomBracketRearHub">Odl. suport - tylna piasta [cm]</string>
+    <string name="txtResult">Ilość ogniw łańcucha:</string>
+    <string name="resultChainLinkNumber">0</string>
+    <string name="btnCalculate">Oblicz</string>
+    <string name="txtTranslate">English / Polski</string>
+    <string name="txtData">Proszę wprowadzić liczby calkowite wieksze niz 0.</string>
+    <string name="txtPDF">Utwórz PDF</string>
+
+    <string name="pdfBikeName">Rower</string>
+    <string name="pdfBikeType">Model</string>
+    <string name="pdfNoApp">Brak aplikacji do otwarcia pliku PDF.</string>
+    <string name="pdfError">Błąd: </string>
+    <string name="pdfCreated">PDF utworzony!</string>
+    <string name="btnSqlDelete">Skasuj</string>
+    <string name="btnSqlUpdate">Aktualizuj</string>
+    <string name="txtSqlNoRecordsList">Brak danych. Stwórz nową kalkulację.</string>
+    <string name="txtSqlBikeType">Model roweru</string>
+    <string name="txtSqlBikeName">Nazwa roweru</string>
+    <string name="txtBikeName">Nazwa roweru</string>
+    <string name="btnSqlChooseImage">Wybierz zdjęcie</string>
+    <string name="btnAddSqlCalculate">Dodaj kalkulację</string>
+    <string name="btnModifySqlCalculate">Zmień kalkulację</string>
+    <string name="txtSqlCassette">Ilość zębów największej tarczy kasety:</string>
+    <string name="txtSqlChainset">Ilość zębów największej tarczy korby:</string>
+    <string name="txtSqlBracket">Odl. suport - tylna piasta [cm]:</string>
 </resources>

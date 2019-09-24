@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ChainLength</string>
-    <string name="napisKaseta">Largest Cassette Disc Chainrings Number</string>
-    <string name="napisKorba">Largest Chainset Disc Chainrings Number</string>
-    <string name="napisSuportPiasta">Bottom Bracket To Rear Hub Length [cm]</string>
-    <string name="napisWynik">Chain Link Number:</string>
-    <string name="napisWynikRownania">Result</string>
-    <string name="przyciskOblicz">Calculate</string>
-    <string name="napisTlumacz">English / Polski</string>
-    <string name="napisDane">Please enter integer values higher than 0.</string>
+    <string name="txtNumberChainringsLargestDiscCassette">Largest Cassette Disc Chainrings Number</string>
+    <string name="txtNumberChainringsLargestDiscChainset">Largest Chainset Disc Chainrings Number</string>
+    <string name="txtLengthBottomBracketRearHub">Bottom Bracket To Rear Hub Length [cm]</string>
+    <string name="txtResult">Chain Link Number:</string>
+    <string name="resultChainLinkNumber">0</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="txtTranslate">English / Polski</string>
+    <string name="txtData">Please enter integer values higher than 0.</string>
+    <string name="txtPDF">Create PDF</string>
+
+    <string name="pdfBikeName">Bike</string>
+    <string name="pdfBikeType">Type</string>
+    <string name="pdfNoApp">No PDF viewer application available.</string>
+    <string name="pdfError">Error: </string>
+    <string name="pdfCreated">PDF created!</string>
+    <string name="btnSqlDelete">Delete</string>
+    <string name="btnSqlUpdate">Update</string>
+    <string name="txtSqlNoRecordsList">No records found. Create new calculation.</string>
+    <string name="txtSqlBikeType">Bike Type</string>
+    <string name="txtBikeName">Bike Name</string>
+    <string name="txtSqlBikeName">Bike Name</string>
+    <string name="btnSqlChooseImage">Choose Image</string>
+    <string name="btnAddSqlCalculate">Add Calculation</string>
+    <string name="btnModifySqlCalculate">Modify Calculation</string>
+    <string name="txtSqlChainset">Largest Cassette Disc Chainrings Number:</string>
+    <string name="txtSqlCassette">Largest Chainset Disc Chainrings Number:</string>
+    <string name="txtSqlBracket">Bottom Bracket To Rear Hub Length [cm]:</string>
 </resources>

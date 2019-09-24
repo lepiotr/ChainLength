@@ -9,6 +9,6 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/chainset2" />
+        android:background="@drawable/chainset2" />
 
 </RelativeLayout>
